@@ -17,7 +17,7 @@ int sequentialsearch(string barang[], int jumlah_elemen, string key){
 int main (){
      //semua deklarasi di pindah keatas aja. jangan di dalem case
      // soalnya kalau di dlm case dia cuma bisa di pake pas di case itu aja
-     // sedangkan kita mau variabelnya di semua case
+     // sedangkan kita mau pake variabelnya di semua case
 	int pilihmenu;
 	char menulain;
 	char ulang;
@@ -27,9 +27,9 @@ int main (){
 	int daftar_harga[] = {50000, 100000, 100000, 150000, 200000};
     // ini juga sama sy pindahin ke atas jadi 1 variabel buat semua
     int  i, jenis, total=0;
-    int kodebarang[100]; //disini bukan i tp langsung kita batasin aja max jenis barang yang diinput = 100
-	int jumlahbarang[100];
-    int harga[100];   
+    int kodebarang[100]; //disini bukan i tp langsung kita batasin aja max jenis barang yang diinput misal 100
+	int jumlahbarang[100]; //ini juga bukan i
+    int harga[100];    //ini juga bukan i
     int kembali, bayar;
 	
 	do{
